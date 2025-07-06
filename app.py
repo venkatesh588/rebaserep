@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# In-memory storage for students
+# In-memory storage for students webhook verification
 data_store = {
     'students': []
 }
